@@ -31,13 +31,13 @@ This is a small collection of scripts which help with cryoCARE denoising of cryo
 	- Reconstruct again with identical parameters.
 
 4. Run cryoCARE
-	- Install cry-care as described here: https://github.com/juglab/cryoCARE_pip
-	- Create a new folder for cry-care
+	- Install cryoCARE as described here in a conda environment: https://github.com/juglab/cryoCARE_pip
+	- Create a new folder for cryoCARE
 	- Copy all necessary files into the folder:
 		- predict_config.json
 		- train_config.json
 		- train_data_config.json
 		- cryocare.sh
 		- The two reconstructed tomograms, they should be named EVN.mrc and ODD.mrc
-	- Activate Honda environment: conda activate cryocare
+	- Activate the conda environment: conda activate cryocare
 	- Run the cryocare script: ./cryocare.sh
