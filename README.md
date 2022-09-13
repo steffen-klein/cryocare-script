@@ -1,4 +1,15 @@
-# cryocare-script
+# CryoCare denoising for cryo-electron tomography #
+
+This is a small colleciton of scripts which help with cryocare denoising of cryo-ET data. In short, frames will be sorted in even and odd, aligned using MotionCor2, manually reconstructed using imod, and finally denoised using cryocare:
+
+## Credits ##
+
+
+- [JugLab](https://github.com/juglab) for [cryoCARE](https://github.com/juglab/cryoCARE_pip)
+- [Zheng et al](https://www.nature.com/articles/nmeth.4193) for [MotionCor2](https://emcore.ucsf.edu/ucsf-software)
+- [Mastronarde and Held](https://doi.org/10.1016/j.jsb.2016.07.011) for [IMOD](https://bio3d.colorado.edu/imod/)
+
+## Instructions ##
 
 1. Run motioncor2.sh script to align frames and create EVN & ODD tilt series
 	- Install MotionCor2 as described here: https://msg.ucsf.edu/software
