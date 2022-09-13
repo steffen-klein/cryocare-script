@@ -14,7 +14,7 @@ This is a small collection of scripts which help with cryoCARE denoising of cryo
 	- Install MotionCor2 as described here: https://msg.ucsf.edu/software
 	- Update the motioncor2 installation path in the script
 	- Frames need to be saved as .tif files with the following naming scheme: TS_aa_bbb_cc.c.tif
-		- with aa=tilt series, bbb=serialEM object and cc.c=titl angle.
+		- with aa=tilt series, bbb=serialEM object and cc.c=tilt angle.
 	- Raw data needs to be organized in a specific way in order for the script to be functional:
 		- ./01_raw_data <-- in this folder all realigned and ordered .st/mrc and .st/mrc.mdoc files are stored
 		- ./01_raw_data/frames <-- in this folder all .tif files are stored
