@@ -1,6 +1,6 @@
 # CryoCare denoising for cryo-electron tomography #
 
-This is a small colleciton of scripts which help with cryocare denoising of cryo-ET data. In short, frames will be sorted in even and odd, aligned using MotionCor2, manually reconstructed using imod, and finally denoised using cryocare:
+This is a small colleciton of scripts which help with cryoCARE denoising of cryo-ET data. In short, frames will be sorted in even and odd, aligned using MotionCor2, manually reconstructed using imod, and finally denoised using cryocare:
 
 ## Credits ##
 
@@ -32,7 +32,7 @@ This is a small colleciton of scripts which help with cryocare denoising of cryo
 	- Reconstruct again with identical parameters.
 
 
-4. Run cry-care
+4. Run cryoCARE
 	- Install cry-care as described here: https://github.com/juglab/cryoCARE_pip
 	- Create a new folder for cry-care
 	- Copy all necessary files into the folder:
