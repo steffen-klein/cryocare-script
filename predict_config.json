@@ -1,0 +1,8 @@
+{
+  "model_name": "model",
+  "path": "./",
+  "even": "./EVN.mrc",
+  "odd": "./ODD.mrc",
+  "n_tiles": [4, 4, 4],
+  "output_name": "denoised.mrc"
+}

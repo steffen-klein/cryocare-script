@@ -1,0 +1,18 @@
+{
+  "even": [
+    "./EVN.mrc"
+  ],
+  "odd": [
+    "./ODD.mrc"
+  ],
+  "patch_shape": [
+    64,
+    64,
+    64
+  ],
+  "num_slices": 1200,
+  "split": 0.9,
+  "tilt_axis": "Y",
+  "n_normalization_samples": 500,
+  "path": "./"
+}
