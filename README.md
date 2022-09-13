@@ -18,7 +18,7 @@ This is a small collection of scripts which help with cryoCARE denoising of cryo
 	- Raw data needs to be organized in a specific way in order for the script to be functional:
 		- ./01_raw_data <-- in this folder all realigned and ordered .st/mrc and .st/mrc.mdoc files are stored
 		- ./01_raw_data/frames <-- in this folder all .tif files are stored
-		- ./motioncor_batch.script <-- this is the correct location for this script
+		- ./motioncor2.sh <-- this is the correct location for this script
 	- This script will generate a hidden temporary folder called .motioncor2_temp where all intermediate files are stored.
 	- The final aligend files will be saved in the folder: ./02_motioncor2
 
